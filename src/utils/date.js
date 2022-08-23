@@ -1,4 +1,4 @@
-export const dateBuilder = (dateStr) => {
+const dateBuilder = (dateStr) => {
     let days = [
         'Sunday',
         'Monday',
@@ -32,3 +32,5 @@ export const dateBuilder = (dateStr) => {
 
     return `${day} ${date} ${month} ${year}`;
 };
+
+export default dateBuilder;

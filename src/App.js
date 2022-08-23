@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { getWeather } from './api/weatherAPI';
-import { dateBuilder } from './utils/date';
+import getWeather from './api/weatherAPI';
+import dateBuilder from './utils/date';
 import { BsSearch } from 'react-icons/bs';
 import {
     Box,
