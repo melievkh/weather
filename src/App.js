@@ -12,6 +12,7 @@ import {
     Weather,
     Wrapper,
 } from './style.js';
+import './App.css';
 
 function App() {
     const [query, setQuery] = useState('');

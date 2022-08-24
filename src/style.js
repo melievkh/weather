@@ -6,12 +6,7 @@ export const Wrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0d0d1f;
-    box-sizing: border-box;
-    background-image: url('http://www.noaa.gov/sites/default/files/styles/landscape_width_650/public/legacy/image/2019/Jun/iStock-477110708%20%281%29.jpg?itok=qLIDK-SD');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: #6e706f;
 `;
 
 export const Box = styled.form`
@@ -53,7 +48,7 @@ export const SearchBox = styled.div`
         background-color: inherit;
         padding: 10px;
 
-        ::placeholder{
+        ::placeholder {
             color: white;
         }
     }
@@ -70,14 +65,15 @@ export const LocationBox = styled.div`
 `;
 
 export const Location = styled.div`
-    font-weight: 900;
+    font-weight: 400;
     font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #fc4903;
 `;
 
 export const Time = styled.div`
     font-size: 22px;
-    font-family: serif;
+    font-family: monospace;
     font-weight: 500;
     color: #fc4903;
 `;
